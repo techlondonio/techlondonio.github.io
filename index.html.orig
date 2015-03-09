@@ -85,7 +85,11 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <h1 class="brand-heading"><span class="light">Join the </span>conversation</h1>
+<<<<<<< HEAD
                         <p class="intro-text">Connect immediately with creative entrepreneurs, startups, investors, design agencies, internet marketers & freelancers - all the main movers and shakers in Tech City</p>
+=======
+                        <p class="intro-text">Connect immediately with creative entrepreneurs, designers, developers, investors, product managers, content creators, design agencies, startups and freelancers - the main movers & shakers in Tech City</p>
+>>>>>>> upstream/master
                         <a href="http://bit.ly/techlondonio" class="btn btn-default btn-lg">SIGN UP NOW</a>
                         <br>
                         <br>
