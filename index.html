@@ -41,8 +41,7 @@
       ga('send', 'pageview');
 
     </script>
-    <script type="text/javascript">(function(o){var b="https://api.autopilothq.com/anywhere/“,t=“8e63f0a7701b4b0aa8c1ea0f31c92f1840ac3349c7984198a33cd37f642a23f6”,a=window.AutopilotAnywhere={_runQueue:[],run:function(){this._runQueue.push(arguments);}},c=encodeURIComponent,s=“SCRIPT”,d=document,l=d.getElementsByTagName(s)[0],p=“t=“+c(d.title%7C%7C“”)+“&u=“+c(d.location.href%7C%7C“”)+“&r=“+c(d.referrer%7C%7C“”),j=“text/javascript”,z,y;if(!window.Autopilot) window.Autopilot=a;if(o.app) p="devmode=true&"+p;z=function(src,asy){var e=d.createElement(s);e.src=src;e.type=j;e.async=asy;l.parentNode.insertBefore(e,l);};y=function(){z(b+t+'?'+p,true);};if(window.attachEvent){window.attachEvent("onload",y);}else{window.addEventListener("load",y,false);}})({});</script>
-
+    <script type="text/javascript">(function(o){var b="https://api.autopilothq.com/anywhere/",t="8e63f0a7701b4b0aa8c1ea0f31c92f1840ac3349c7984198a33cd37f642a23f6",a=window.AutopilotAnywhere={_runQueue:[],run:function(){this._runQueue.push(arguments);}},c=encodeURIComponent,s="SCRIPT",d=document,l=d.getElementsByTagName(s)[0],p="t="+c(d.title||"")+"&u="+c(d.location.href||"")+"&r="+c(d.referrer||""),j="text/javascript",z,y;if(!window.Autopilot) window.Autopilot=a;if(o.app) p="devmode=true&"+p;z=function(src,asy){var e=d.createElement(s);e.src=src;e.type=j;e.async=asy;l.parentNode.insertBefore(e,l);};y=function(){z(b+t+'?'+p,true);};if(window.attachEvent){window.attachEvent("onload",y);}else{window.addEventListener("load",y,false);}})({});</script>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
